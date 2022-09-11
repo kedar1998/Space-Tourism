@@ -10,7 +10,15 @@
 
 @media only screen and (max-width: 1020px) {
     #hero{
-    background: url('../assets/home/background-home-mobile.jpg');
+    background: url('../assets/home/Tablet-home.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #hero{
+    background: url('../assets/home/Mobile-home.svg');
     background-repeat: no-repeat;
     background-size: cover;
     }
