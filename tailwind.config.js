@@ -7,7 +7,15 @@ module.exports = {
     lg:'1020px',
     xl:'1440px'
   },
-    extend: {},
+    extend: {
+      fontFamily: {
+        belle: 'Bellefair, serif',
+        Barlow: 'Barlow Condensed, serif',
+      },
+      outlineWidth: {
+        5: '50px',
+      }
+    },
   },
   plugins: [],
 }
