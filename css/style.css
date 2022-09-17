@@ -639,24 +639,8 @@ video {
   height: 300px;
 }
 
-.h-5 {
-  height: 1.25rem;
-}
-
 .h-10 {
   height: 2.5rem;
-}
-
-.h-14 {
-  height: 3.5rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .w-full {
@@ -675,20 +659,8 @@ video {
   width: 0.75rem;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
 .w-10 {
   width: 2.5rem;
-}
-
-.w-14 {
-  width: 3.5rem;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .max-w-md {
@@ -697,10 +669,6 @@ video {
 
 .max-w-sm {
   max-width: 24rem;
-}
-
-.max-w-full {
-  max-width: 100%;
 }
 
 .flex-row {
@@ -739,18 +707,6 @@ video {
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
-.space-y-8 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-}
-
-.space-y-10 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-
 .space-x-10 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2.5rem * var(--tw-space-x-reverse));
@@ -761,10 +717,6 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
-}
-
-.overflow-x-clip {
-  overflow-x: clip;
 }
 
 .scroll-smooth {
@@ -786,11 +738,6 @@ video {
 .border-gray-600 {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity));
-}
-
-.border-gray-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .border-gray-500 {
@@ -847,11 +794,6 @@ video {
   padding-right: 4rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .pt-32 {
   padding-top: 8rem;
 }
@@ -890,10 +832,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
 }
 
 .pt-16 {
@@ -935,16 +873,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -1011,14 +939,14 @@ video {
 }
 
 #hero{
-  background: url('../assets/home/home.svg');
+  background: url('../assets/home/Desktop - Home.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media only screen and (max-width: 1020px) {
   #hero{
-    background: url('../assets/home/Tablet-home.svg');
+    background: url('../assets/home/Tablet - Home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1026,7 +954,7 @@ video {
 
 @media only screen and (max-width: 768px) {
   #hero{
-    background: url('../assets/home/Mobile-home.svg');
+    background: url('../assets/home/Mobile - Home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -1261,10 +1189,6 @@ video {
     width: 50%;
   }
 
-  .lg\:max-w-md {
-    max-width: 28rem;
-  }
-
   .lg\:max-w-lg {
     max-width: 32rem;
   }
@@ -1291,10 +1215,10 @@ video {
     margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1303,10 +1227,10 @@ video {
     margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  .lg\:space-y-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
   }
 
   .lg\:py-36 {

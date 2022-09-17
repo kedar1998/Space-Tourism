@@ -8,7 +8,7 @@
 
 
 #hero{
-    background: url('../assets/home/home.svg');
+    background: url('../assets/home/Desktop - Home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,7 +16,7 @@
 
 @media only screen and (max-width: 1020px) {
     #hero{
-    background: url('../assets/home/Tablet-home.svg');
+    background: url('../assets/home/Tablet - Home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     }
@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 768px) {
     #hero{
-    background: url('../assets/home/Mobile-home.svg');
+    background: url('../assets/home/Mobile - Home.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
